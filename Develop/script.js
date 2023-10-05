@@ -5,7 +5,6 @@ var characterCodes = Array.from(Array(26)).map( (_, i)=> i+97);
 var lowercaseLetters = characterCodes.map(code => String.fromCharCode(code));
 var uppercaseLetters = lowercaseLetters.map(letter => letter.toUpperCase());
 
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -23,12 +22,24 @@ function writePassword() {
 }
 
 function passwordOptions() {
-  if (numbers && symbols && lowercaseLetters && uppercaseLetters) {
-    console.log(pass)
-  } if (numbers && symbols && lowercaseLetters) {
+  var checkbox = document.getElementById('passwordOptions')
 
+  checkbox.addEventListener('change', (event) => {
+    if (event.currentTarget.checked) {
+      alert('checked');
+    } else {
+      alert('not checked');
+    }
+  })
   }
-  }
+function passwordLength() {
+  var passwordLength = getElementById('passwordLength');
+  if (passwordLength < 8 || passwordLength > 128) {
+  alert("Your password does not meet the critia");
+  var passwordLength = prompt("Password must be between 8 and 128 characters in length.");
+}
+}
+passwordOptions();
 console.log(writePassword());
 
 
@@ -62,4 +73,4 @@ console.log(writePassword());
 // console.log(writePassword());
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword());
+// generateBtn.addEventListener("click", writePassword());
