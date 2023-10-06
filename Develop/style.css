@@ -122,12 +122,6 @@ button[disabled] {
   font-size: 16px;
 }
 
-/*To Do - align password length input*/
-#passwordLength {
-  display:flex;
-  flex-direction: row;
-}
-
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
