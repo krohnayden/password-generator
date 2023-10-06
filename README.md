@@ -1,8 +1,8 @@
-# Password Generator Starter Code
+# Password Generator 
 
 ## Description
 
-My website accomplishes the goal of creating a random password through generating a custom password that takes user input for numbers, special characters, uppercase letters, and lowercase letters. The use can check different boxes that add/remove certain character types. Through making this project, I learned how to correctly write javascript to accomplish seperate goals. For example, I made a event listner that checks to see if my checkboxes are checked and if the generate button is clicked.
+My website accomplishes the goal of creating a random password through generating a custom password that takes user input for numbers, special characters, uppercase letters, and lowercase letters. The use can check different boxes that add/remove certain character types. Through making this project, I learned how to correctly write javascript to accomplish seperate goals. For example, I made a event listener that checks to see if my checkboxes are checked and if the generate button is clicked.
 
 ## Installation
 
@@ -15,8 +15,9 @@ To use, simply click what you want in your password and the length of the passwo
 ![alt text](Photos/PasswordGeneratorImage(1).png)
 ![alt text](Photos/PasswordGeneratorPhoto(2).png)
 
-Link to Deployed Application: 
-Link to GitHub Repository: 
+Link to Deployed Application: https://krohnayden.github.io/password-generator/
+
+Link to GitHub Repository: https://github.com/krohnayden/password-generator
 
 ## Credits
 Starter code provided from: https://github.com/coding-boot-camp/friendly-parakeet
